@@ -1,0 +1,20 @@
+Invalid credentials.: 'Wprowadzone hasło jest niepoprawne!'
+
+verifier: 
+    form:
+        recaptcha: Recaptcha verification failed.
+        honeypot: Honeypot verification failed.
+        timestamp: You filled form too fast or session timeout.
+        
+authenticator:
+    form:
+        login: 
+            email: Email could not be found.
+            reachMaxLoginNumber: Your try to login max number of times. You have to wait %time% yet.
+            
+checker:
+    user:
+        deleted: Your user account no longer exists.
+        locked: Your user account is locked.
+        enabled: Your user account is not enabled.
+        verified: Verify your email address first.

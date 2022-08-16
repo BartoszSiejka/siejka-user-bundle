@@ -1,0 +1,17 @@
+form:
+    resetPassword:
+        emailValidation: Please enter your email
+    registration:
+        agreeTermsVelidation: You should agree to our terms.
+        passwordBlankValidation: Please enter a password
+        passwordMinLengthValidation: Your password should be at least {{ limit }} characters
+        passwordMaxLengthValidation: Your password should have not more than {{ limit }} characters
+        passwordNumberValidation: Your password should contain a number
+        passwordCapitalLetterValidation: Your password should contain one capital letter
+        passwordSmallLetterValidation: Your password should contain one small letter
+        passwordSpecialCharValidation: Your password should contain one special char
+        passwordWhiteSpaceValidation: Your password should not contain any white space
+        invalidPassword: The password fields must match.
+        
+reset:
+    passwordTokenValidation: No reset password token found in the URL or in the session.

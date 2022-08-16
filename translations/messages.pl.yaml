@@ -1,0 +1,19 @@
+form:
+    registration:
+        password: Hasło
+        newPassword: Nowe hasło
+        repeatPassword: Powtórz hasło
+        
+reset:
+    emailValidation: Taki adres email nie istnieje w naszej bazie.
+    handlingError: Wystąpił problem w procesie odzyskiwania hasła - 
+    validationError: Wystąpił problem z walidacją Twojej prośby o odzyskanie hasła - 
+    
+registration:
+    emailVerification: Twój adress email został zweryfikowany.
+
+verifier: 
+    form:
+        recaptcha: Weryfikacja captcha nieudana. Odśwież stronę i spróbuj ponownie.
+        honeypot: Weryfikacja pułapki nieudana.
+        timestamp: Wypełniłeś formularz zbyt szybko lub minął czas na jego wypełnienie.

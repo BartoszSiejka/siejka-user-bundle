@@ -1,0 +1,29 @@
+{ 
+    "name": "siejka/user-bundle",
+    "description": "User Bundle for Symfony 5 with PHP >= 7.4.",
+    "type": "symfony-bundle",
+    "require": {
+        "php": ">=7.4",
+        "symfony/framework-bundle": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Siejka\\UserBundle\\": "src/"
+        }
+    },  
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bartosz Siejka",
+            "email": "siejka.bartosz@gmail.com"
+        }
+    ],
+    "type": "project",
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.2.5",
+        "google/recaptcha": "^1.2"
+    }
+}

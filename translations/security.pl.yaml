@@ -1,0 +1,20 @@
+Invalid credentials.: 'Wprowadzone hasło jest niepoprawne!'
+
+verifier: 
+    form:
+        recaptcha: Weryfikacja captcha nieudana.
+        honeypot: Weryfikacja pułapki nieudana.
+        timestamp: Wypełniłeś formularz zbyt szybko lub minął czas na jego wypełnienie.
+        
+authenticator:
+    form:
+        login: 
+            email: Adres email nie został znaleziony.
+            reachMaxLoginNumber: Podjąłeś maksymalną liczbę prób zalogowania. Spróbuj ponownie za %time%.
+            
+checker:
+    user:
+        deleted: Twoje konto zostało usunięte.
+        locked: Twoje konto zostało zablokowane.
+        enabled: Twoje konto nie jest aktywne.
+        verified: Zweryfikuj swój adres email.

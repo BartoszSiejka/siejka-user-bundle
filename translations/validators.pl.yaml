@@ -1,0 +1,17 @@
+form:
+    resetPassword:
+        emailValidation: Proszę uzupełnić adres email.
+    registration:
+        agreeTermsVelidation: Musisz zaznaczyć zgodę.
+        passwordBlankValidation: Proszę wpisać hasło
+        passwordMinLengthValidation: Hasło nie powinno zawierać mniej niż {{ limit }} znaków
+        passwordMaxLengthValidation: Hasło nie powinno zawierać więcej niż {{ limit }} znaków
+        passwordNumberValidation: Twoje hasło powinno zawierać cyfrę
+        passwordCapitalLetterValidation: Twoje hasło powinno zawierać wielką literę
+        passwordSmallLetterValidation: Twoje hasło powinno zawierać małą literę
+        passwordSpecialCharValidation: Twoje hasło powinno zawierać znak specjalny
+        passwordWhiteSpaceValidation: Twoje hasło nie powinno zawierać spacji
+        invalidPassword: Pola hasła nie są identyczne.
+        
+reset:
+    passwordTokenValidation: Nie znaleziono tokenu hasła w adresie ani w sesji.

@@ -1,0 +1,19 @@
+form:
+    registration:
+        password: Password
+        newPassword: New password
+        repeatPassword: Repeat Password
+        
+reset:
+    emailValidation: There was a problem handling your password reset request - email address not exist.
+    handlingError: There was a problem handling your password reset request - 
+    validationError: There was a problem validating your reset request - 
+    
+registration:
+    emailVerification: Your email address has been verified.
+
+verifier: 
+    form:
+        recaptcha: Recaptcha verification failed. Refresh page and try again.
+        honeypot: Honeypot verification failed.
+        timestamp: You filled form too fast or session timeout.

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        
+{#        <script src="{{ asset('../../../../public/bundles/siejkauser/js/jquery.min.js') }}"></script>#}
+        {% block stylesheets %}
+        {% endblock %}
+    </head>
+    <body>
+        {% block body %}
+            Text
+            <a href="{{  path('login') }}">Login</a>
+            <a href="{{  path('logout') }}">Logout</a>
+        {% endblock %}
+
+        <script src="https://www.google.com/recaptcha/api.js?render={{ get_env("GOOGLE_RECAPTCHA_SITE_KEY") }}"></script>
+        <script>
+            var timestamp = 0;
+            
+            function setTimestamp(name) {
+                var tmstmp = document.getElementById(name);
+                if (timestamp === 0 && (tmstmp.value === null || tmstmp.value === '')) {
+                    timestamp = (new Date()).getTime();
+                    tmstmp.value = timestamp;
+                }
+            }
+        </script>
+        {% block javascripts %}
+        {% endblock %}
+    </body>
+</html>
